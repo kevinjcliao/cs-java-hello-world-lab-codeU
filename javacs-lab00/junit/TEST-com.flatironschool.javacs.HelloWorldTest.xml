@@ -1,110 +1,148 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="pletcher.local" name="com.flatironschool.javacs.HelloWorldTest" skipped="0" tests="1" time="0.289" timestamp="2016-03-15T15:44:25">
+<testsuite errors="0" failures="0" hostname="Atlantia.local" name="com.flatironschool.javacs.HelloWorldTest" skipped="0" tests="1" time="0.076" timestamp="2016-03-18T17:50:53">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.ALF_SRC_TOOLS" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/tools" />
+    <property name="env.ZSH_UNAME" value="Darwin" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="env.XPC_SERVICE_NAME" value="0" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-    <property name="env.COLORFGBG" value="12;8" />
+    <property name="env.ALF_SRC_TEMPLATES" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/templates" />
+    <property name="env.GEM_HOME" value="/Users/kevinliao/.rvm/gems/ruby-2.2.3" />
     <property name="os.name" value="Mac OS X" />
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/classes" />
-    <property name="env.TMPDIR" value="/var/folders/8d/vpdn7q2d2pq61rx2bnyk5bl00000gn/T/" />
-    <property name="env.PWD" value="/Users/pletcher/Development/code/cs-hello-world-lab" />
+    <property name="env.TMPDIR" value="/var/folders/yp/8s1h6b5d4ms53b2rxr68t80m0000gn/T/" />
+    <property name="env.ALF_SYMLINK" value="/Users/kevinliao/.alf/symlink" />
+    <property name="env.PWD" value="/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU" />
+    <property name="env.JAVA_MAIN_CLASS_92310" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.LANG" value="en_US.UTF-8" />
-    <property name="env.LESS" value="-R" />
+    <property name="env.ALF_SRC" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="ant.home" value="/usr/local/Cellar/ant/1.9.6/libexec" />
     <property name="java.runtime.version" value="1.8.0_74-b02" />
-    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.bSdYejpPFn/Render" />
-    <property name="user.name" value="pletcher" />
-    <property name="env.USER" value="pletcher" />
-    <property name="env.SHELL" value="/bin/zsh" />
+    <property name="env.ALF_SRC_GIT_HOOKS" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/git-hooks" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.YFdV5pr5BB/Render" />
+    <property name="env.DISPLAY" value="/private/tmp/com.apple.launchd.ZbXAD2KSgJ/org.macosforge.xquartz:0" />
+    <property name="env.rvm_version" value="1.26.11 latest" />
+    <property name="env.ALF_CONFIG_WIN" value="/Users/kevinliao/.alf/config/win" />
+    <property name="user.name" value="kevinliao" />
+    <property name="env.USER" value="kevinliao" />
+    <property name="env.SHELL" value="/usr/local/bin/zsh" />
     <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
-    <property name="env.PATH" value="/Users/pletcher/.rbenv/versions/2.3.0/bin:/usr/local/Cellar/rbenv/1.0.0/libexec:/Users/pletcher/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="env.__fish_bin_dir" value="/usr/local/Cellar/fish/2.2.0/bin" />
+    <property name="env.PATH" value="/Users/kevinliao/.swiftenv/shims:/Users/kevinliao/.swiftenv/bin:/Users/kevinliao/.rvm/gems/ruby-2.2.3/bin:/Users/kevinliao/.rvm/gems/ruby-2.2.3@global/bin:/Users/kevinliao/.rvm/rubies/ruby-2.2.3/bin:/Users/kevinliao/.rvm/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/ksreview/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/murder/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/pretty-print/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/process/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/run-once/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/logr/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/server/bin:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/osx-ksreview/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Library/TeX/texbin:/LibraryTeX/texbin" />
     <property name="user.language" value="en" />
+    <property name="env.rvm_prefix" value="/Users/kevinliao" />
+    <property name="env.ALF_THEME" value="sindresorhus/pure" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib" />
+    <property name="env.PLATFORM_IS_ALL" value="1" />
+    <property name="env.ALF_PROCESS" value="/Users/kevinliao/.alf/process" />
     <property name="ant.project.default-target" value="build" />
     <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="env.ALF_SRC_THEMES" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/themes" />
     <property name="ant.project.name" value="JavaCS" />
-    <property name="env.LC_CTYPE" value="en_US.UTF-8" />
+    <property name="env.rvm_path" value="/Users/kevinliao/.rvm" />
     <property name="java.version" value="1.8.0_74" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/endorsed" />
     <property name="sun.cpu.isalist" value="" />
     <property name="sun.jnu.encoding" value="UTF-8" />
-    <property name="env.ITERM_SESSION_ID" value="w0t2p1:1EE13A33-D132-4FEA-A0DE-F53739370DC3" />
+    <property name="env.ITERM_SESSION_ID" value="w0t0p1" />
+    <property name="env.rvm_bin_path" value="/Users/kevinliao/.rvm/bin" />
     <property name="file.encoding.pkg" value="sun.io" />
-    <property name="env.SHLVL" value="3" />
+    <property name="env.SHLVL" value="4" />
     <property name="file.separator" value="/" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.class.version" value="52.0" />
+    <property name="env.ALF_CONFIG_PRPROMPT_ID" value="%F{magenta}[ Alf ]%f" />
+    <property name="env.ALF_CUSTOM_ALIASES" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/aliases/init.zsh" />
     <property name="user.country" value="US" />
-    <property name="ant.file.JavaCS" value="/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/build.xml" />
+    <property name="ant.file.JavaCS" value="/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/build.xml" />
+    <property name="env.ALF_SRC_FONTS" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/fonts" />
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre" />
-    <property name="env.ZSH" value="/Users/pletcher/.oh-my-zsh" />
+    <property name="env.ANDROID_HOME" value="/usr/local/opt/android-sdk" />
+    <property name="env.ZSH" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="env.LOGNAME" value="pletcher" />
-    <property name="ant.file" value="/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/build.xml" />
-    <property name="os.version" value="10.11.3" />
+    <property name="env.LOGNAME" value="kevinliao" />
+    <property name="ant.file" value="/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/build.xml" />
+    <property name="os.version" value="10.11.4" />
+    <property name="env.ALF_RUN_ONCE" value="/Users/kevinliao/.alf/run-once" />
+    <property name="env.ALF_GRUNT_INIT" value="/Users/kevinliao/.grunt-init" />
+    <property name="env.rvm_ruby_string" value="ruby-2.2.3" />
     <property name="path.separator" value=":" />
+    <property name="env._ORIGINAL_GEM_PATH" value="/Users/kevinliao/.rvm/gems/ruby-2.2.3:/Users/kevinliao/.rvm/gems/ruby-2.2.3@global" />
     <property name="java.vm.version" value="25.74-b02" />
-    <property name="env.RBENV_ROOT" value="/Users/pletcher/.rbenv" />
     <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.9.6/libexec/lib" />
+    <property name="env.__fish_help_dir" value="/usr/local/Cellar/fish/2.2.0/share/doc/fish" />
     <property name="junit.output.dir" value="junit" />
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.__fish_datadir" value="/usr/local/Cellar/fish/2.2.0/share/fish" />
     <property name="env.TERM" value="xterm-256color" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.ALF_CUSTOM" value="/Users/kevinliao/.alf" />
     <property name="sun.io.unicode.encoding" value="UnicodeBig" />
-    <property name="env.RBENV_VERSION" value="2.3.0" />
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="env.LSCOLORS" value="Gxfxcxdxbxegedabagacad" />
-    <property name="env.JAVA_MAIN_CLASS_4865" value="org.apache.tools.ant.launch.Launcher" />
-    <property name="user.home" value="/Users/pletcher" />
+    <property name="env.rvm_delete_flag" value="0" />
+    <property name="env.MANPATH" value="/usr/share/man:/usr/local/share/man:/opt/X11/share/man:/Library/TeX/Distributions/.DefaultTeX/Contents/Man:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/logr/man:/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/server/man" />
+    <property name="env.ALF_RPROMPT" value="/Users/kevinliao/.alf/rprompt" />
+    <property name="env.GEM_PATH" value="/Users/kevinliao/.rvm/gems/ruby-2.2.3:/Users/kevinliao/.rvm/gems/ruby-2.2.3@global" />
+    <property name="user.home" value="/Users/kevinliao" />
     <property name="target" value="1.6" />
-    <property name="env.RBENV_HOOK_PATH" value="/Users/pletcher/.rbenv/rbenv.d:/usr/local/Cellar/rbenv/1.0.0/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks" />
+    <property name="env.ALF_EPOCH" value="/Users/kevinliao/.alf/epoch" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.HOMEBREW_CASK_OPTS" value="--appdir=/Applications --binarydir=/usr/local/bin --caskroom=/opt/homebrew-cask/Caskroom --fontdir=~/Library/Fonts --input_methoddir=~/Library/Input\ Methods --prefpanedir=~/Library/PreferencePanes --qlplugindir=~/Library/QuickLook --screen_saverdir=~/Library/Screen\ Savers --widgetdir=~/Library/Widgets" />
     <property name="env.TERM_PROGRAM" value="iTerm.app" />
-    <property name="env.PAGER" value="less" />
-    <property name="java.library.path" value="/Users/pletcher/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="env.ALF_VERSION" value="/Users/kevinliao/.alf/version" />
+    <property name="env.SWIFTENV_ROOT" value="/Users/kevinliao/.swiftenv" />
+    <property name="java.library.path" value="/Users/kevinliao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="gopherProxySet" value="false" />
+    <property name="env.ALF_CONFIG_GIT" value="/Users/kevinliao/.alf/config/git" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.__fish_sysconfdir" value="/usr/local/Cellar/fish/2.2.0/etc/fish" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="java.class.path" value="/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/bin:/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/lib/junit-4.12.jar:/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/junit/TEST-com.flatironschool.javacs.HelloWorldTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/junitvmwatcher8138220387164148789.properties propsfile=/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00/junit1756973550264587017.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/junit/TEST-com.flatironschool.javacs.HelloWorldTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/junitvmwatcher4140684737096795035.properties propsfile=/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/junit516793059046021455.properties" />
+    <property name="java.class.path" value="/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/bin:/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/lib/junit-4.12.jar:/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
     <property name="ant.file.type.JavaCS" value="file" />
+    <property name="env.ALF_CONFIG_SSH" value="/Users/kevinliao/.alf/config/ssh" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
-    <property name="env.RBENV_SHELL" value="zsh" />
+    <property name="env.PLATFORM_IS_MAC" value="1" />
+    <property name="env.ADOTDIR" value="/Users/kevinliao/.alf/antigen" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="sun.os.patch.level" value="unknown" />
     <property name="sun.cpu.endian" value="little" />
-    <property name="env.HOME" value="/Users/pletcher" />
+    <property name="env.HOME" value="/Users/kevinliao" />
     <property name="debuglevel" value="source,lines,vars" />
-    <property name="java.io.tmpdir" value="/var/folders/8d/vpdn7q2d2pq61rx2bnyk5bl00000gn/T/" />
+    <property name="java.io.tmpdir" value="/var/folders/yp/8s1h6b5d4ms53b2rxr68t80m0000gn/T/" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.hPZ3uVKcOA/Listeners" />
-    <property name="env.RUBYLIB" value="/usr/local/Cellar/rbenv/1.0.0/rbenv.d/exec/gem-rehash:" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.fqhOY0Qklc/Listeners" />
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="os.arch" value="x86_64" />
-    <property name="java.ext.dirs" value="/Users/pletcher/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
-    <property name="user.dir" value="/Users/pletcher/Development/code/cs-hello-world-lab" />
+    <property name="java.ext.dirs" value="/Users/kevinliao/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU" />
+    <property name="env.ALF_UPDATE_DAYS" value="60" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="basedir" value="/Users/pletcher/Development/code/cs-hello-world-lab/javacs-lab00" />
-    <property name="env.ITERM_PROFILE" value="Default" />
+    <property name="env.OMZ_URL" value="https://github.com/robbyrussell/oh-my-zsh.git" />
+    <property name="basedir" value="/Volumes/KEVIN_LIAO/Programming/CodeU/cs-java-hello-world-lab-codeU/javacs-lab00" />
+    <property name="env.ITERM_PROFILE" value="Espresso" />
+    <property name="env.ALF_UPDATES" value="/Users/kevinliao/.alf/updates" />
+    <property name="env.ZSH_CUSTOM" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git" />
     <property name="ant.java.version" value="1.8" />
     <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar" />
+    <property name="env.ALF_CUSTOM_KEY_BINDINGS" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins/key-bindings/init.zsh" />
     <property name="source" value="1.6" />
-    <property name="env.RBENV_DIR" value="/Users/pletcher/Development/code/cs-hello-world-lab" />
     <property name="file.encoding" value="UTF-8" />
-    <property name="env.ZSH_THEME" value="jbergantine" />
+    <property name="env.ALF_LOGR" value="/Users/kevinliao/.alf/logr" />
+    <property name="env.ALF_SRC_PLUGINS" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/plugins" />
+    <property name="env.ALF_CONFIG" value="/Users/kevinliao/.alf/config" />
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.ALF_SRC_TEMPLATES_CONFIG" value="/Users/kevinliao/.alf/antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-psyrendust-SLASH-alf.git/templates/config" />
+    <property name="env.ALF_URL" value="https://github.com/psyrendust/alf.git" />
+    <property name="env.ALF_BACKUP" value="/Users/kevinliao/.alf/backup" />
   </properties>
   <testcase classname="com.flatironschool.javacs.HelloWorldTest" name="testGetVersion" time="0.002" />
   <system-out><![CDATA[]]></system-out>
